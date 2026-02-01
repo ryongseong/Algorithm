@@ -20,10 +20,10 @@ public class Main {
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
 
-        int A = Integer.parseInt(br.readLine());
-        int B = Integer.parseInt(br.readLine());
+        Long A = Long.parseLong(br.readLine());
+        Long B = Long.parseLong(br.readLine());
 
-        int result = A * B;
+        Long result = A * B;
 
         System.out.println(result);
     }
